@@ -17,14 +17,13 @@
 //});
 
 //calculo somar
-const bSomar = document.querySelector("#btnSomar");
-bSomar.addEventListener("click",()=>{
-    var n1=parseFloat(document.querySelector("#numero1").value);
-    var n2=parseFloat(document.querySelector("#numero2").value);
-    bSomar(n1,n2);
+// const bSomar = document.querySelector("#btnSomar");
+// bSomar.addEventListener("click",()=>{
+//     var n1=parseFloat(document.querySelector("#numero1").value);
+//     var n2=parseFloat(document.querySelector("#numero2").value);
+//     bSomar(n1,n2);
 
-});
-function somar()
+// });
 
 //calculo imc
 
@@ -33,7 +32,7 @@ document.querySelector("#btnImc").addEventListener("click",function
     var n1=parseFloat(document.querySelector("#numero1").value);
     var n2=parseFloat(document.querySelector("#numero2").value);
     var imc= n1/n2**2;
-    document.querySelector('#imc').value = imc;
+    document.querySelector('#Imc').value = imc;
 
 });
 
